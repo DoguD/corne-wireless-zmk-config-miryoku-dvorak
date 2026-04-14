@@ -136,8 +136,17 @@
     <text class="layer-title" x="0" y="15">NAV</text>
     <text class="layer-subtitle" x="50" y="15">hold Space</text>
 
-    <!-- Left top -->
-    <rect class="key key-empty" x="0" y="30" width="56" height="40"/><rect class="key key-empty" x="62" y="30" width="56" height="40"/><rect class="key key-empty" x="124" y="30" width="56" height="40"/><rect class="key key-empty" x="186" y="30" width="56" height="40"/><rect class="key key-empty" x="248" y="30" width="56" height="40"/>
+    <!-- Left top (clipboard mirror) -->
+    <rect class="key key-action" x="0" y="30" width="56" height="40"/>
+    <text class="key-label" x="28" y="50">Undo</text>
+    <rect class="key key-action" x="62" y="30" width="56" height="40"/>
+    <text class="key-label" x="90" y="50">Cut</text>
+    <rect class="key key-action" x="124" y="30" width="56" height="40"/>
+    <text class="key-label" x="152" y="50">Copy</text>
+    <rect class="key key-action" x="186" y="30" width="56" height="40"/>
+    <text class="key-label" x="214" y="50">Paste</text>
+    <rect class="key key-action" x="248" y="30" width="56" height="40"/>
+    <text class="key-label" x="276" y="50">Redo</text>
     <!-- Right top -->
     <rect class="key key-action" x="370" y="30" width="56" height="40"/>
     <text class="key-label" x="398" y="50">Redo</text>
@@ -206,7 +215,16 @@
     <text class="layer-title" x="0" y="15">MOUSE</text>
     <text class="layer-subtitle" x="70" y="15">hold Tab</text>
 
-    <rect class="key key-empty" x="0" y="30" width="56" height="40"/><rect class="key key-empty" x="62" y="30" width="56" height="40"/><rect class="key key-empty" x="124" y="30" width="56" height="40"/><rect class="key key-empty" x="186" y="30" width="56" height="40"/><rect class="key key-empty" x="248" y="30" width="56" height="40"/>
+    <rect class="key key-action" x="0" y="30" width="56" height="40"/>
+    <text class="key-label" x="28" y="50">Undo</text>
+    <rect class="key key-action" x="62" y="30" width="56" height="40"/>
+    <text class="key-label" x="90" y="50">Cut</text>
+    <rect class="key key-action" x="124" y="30" width="56" height="40"/>
+    <text class="key-label" x="152" y="50">Copy</text>
+    <rect class="key key-action" x="186" y="30" width="56" height="40"/>
+    <text class="key-label" x="214" y="50">Paste</text>
+    <rect class="key key-action" x="248" y="30" width="56" height="40"/>
+    <text class="key-label" x="276" y="50">Redo</text>
     <rect class="key key-action" x="370" y="30" width="56" height="40"/>
     <text class="key-label" x="398" y="50">Redo</text>
     <rect class="key key-action" x="432" y="30" width="56" height="40"/>
